@@ -6,15 +6,15 @@ It provides a simple but powerful CLI that enables you to quickly access an Ubun
 ## in this documentation you will be able to ;
 -Install multipass via your terminal  using the command `` snap install multipass ``
 manage instances using the following steps ;
--Create an instance using the command `` multipass lunch``
--Modify an instance using the command ``multipass set client.primary-name=first``
--To delete an instance run ``multipass delete keen-yak``
--Create an alias
-To create an alias that runs a command on a given instance, use the command ``multipass alias``.
--To share data with an instance by using the ``multipass mount`` command to share data between your host 
--Unmounting shared directories
--To unmount previously mounted paths, use the ``multipass umount`` command.
->><h2>How to use a blueprint
+-Create an instance using the command `` multipass lunch``  
+-Modify an instance using the command ``multipass set client.primary-name=first``  
+-To delete an instance run ``multipass delete keen-yak``  
+-Create an alias  
+To create an alias that runs a command on a given instance, use the command ``multipass alias``.  
+-To share data with an instance by using the ``multipass mount`` command to share data between your host   
+-Unmounting shared directories  
+-To unmount previously mounted paths, use the ``multipass umount`` command.  
+>><h2>How to use a blueprint  
 Blueprints provide a shortcut to initialising Multipass instances for a variety of applications.
 -To see what blueprints are available, run;  
 ``multipass find --only-blueprints``
